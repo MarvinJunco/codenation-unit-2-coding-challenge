@@ -25,6 +25,24 @@ header {
   font-size:xx-large;
 }
 
+header:hover {
+  transform: rotate(360deg);
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(3600deg);
+  }
+}
+
 p {
   margin:100px;
   font-size:x-large;
@@ -38,5 +56,7 @@ p {
   height:300px;
   border-radius:50px;
   flex-direction: row;
+  padding:10px;
+  
 }
 
