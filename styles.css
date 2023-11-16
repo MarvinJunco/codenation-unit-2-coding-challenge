@@ -5,3 +5,38 @@ body {
 }
 
 /* Apply CSS styles to three of your HTML elements to make the page visually appealing. */
+
+.profile {
+  align-items:center;
+  border: solid white 10px;
+  border-radius: 250px;
+  background-color:white;
+  width:250px;
+  height:250px;
+  padding:25px;
+}
+
+.display-img {
+  margin-top:100px;
+}
+
+header {
+  margin:100px;
+  font-size:xx-large;
+}
+
+p {
+  margin:100px;
+  font-size:x-large;
+}
+
+.info {
+  background-color:white;
+  margin-left:auto;
+  margin-right:auto;
+  width:65%;
+  height:300px;
+  border-radius:50px;
+  flex-direction: row;
+}
+
